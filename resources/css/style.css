@@ -7,6 +7,10 @@ header {
 
 .logo { /* This should  be called .logo-container*/
   display: flex;
+  flex-grow: 1; /* adding "flex-grow: 1" to the logo but nothing for the flex-grow property in the
+  nav element makes it take up 100% of the space left. In other words, it made the logo container (not the
+  logo or type) stretched WIDE, pushing the nav container up against the right "wall" until it could
+  go no further. */
   color: MediumAquamarine;
   align-items: center;
   padding-left: 30px;
