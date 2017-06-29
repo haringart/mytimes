@@ -3,23 +3,27 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-bottom: 1px solid black;
 }
 
 .logo { /* This should  be called .logo-container*/
   display: flex;
-  flex-grow: 1; /* adding "flex-grow: 1" to the logo but nothing for the flex-grow property in the
-  nav element makes it take up 100% of the space left. In other words, it made the logo container (not the
-  logo or type) stretched WIDE, pushing the nav container up against the right "wall" until it could
-  go no further. */
+  flex-grow: 1; /* .logo container will GROW to fill any extra available space. */
   color: MediumAquamarine;
   align-items: center;
-  padding-left: 30px;
 }
 
 nav {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
   align-items: center;
+  padding: 15px;
+}
+
+span {
+  padding: 15px;
 }
 
 /* CHEATING FROM INSPECTOR!
