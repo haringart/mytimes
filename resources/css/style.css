@@ -31,6 +31,10 @@ a {
   color: black;
 }
 
+p {
+  margin: 0px;
+}
+
 /*-- MAIN CONTAINER --*/
 
 main {
