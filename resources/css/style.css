@@ -26,6 +26,10 @@ span {
   padding: 15px;
 }
 
+a {
+  color: black;
+}
+
 /* CHEATING FROM INSPECTOR!
 header {
     display: flex;
