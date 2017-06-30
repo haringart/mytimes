@@ -35,7 +35,7 @@ p {
   margin: 0px;
 }
 
-/*-- MAIN CONTAINER --*/
+/*-- MAIN CONTAINER'S COLUMNS --*/
 
 main {
   display: flex;
@@ -46,19 +46,54 @@ div {
   border: 1px solid red;
 }
 
-.column.large {
+.column {
   display: flex;
   flex-direction: column;
   border: 2px solid aqua;
+  margin-right: 32px;
+}
+
+.large {
   width: 630px;
 }
 
-.column.medium {
+.medium {
   width: 300px;
-  border: 2px solid aqua;
 }
 
-.column.small {
+.small {
   width: 240px;
-  border: 2px solid aqua;
+}
+
+/*-- CONTENT INSIDE THE 3 COLUMNS --*/
+
+.banners {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.feature {
+  background-image: url(../images/img-story-main.png);
+  font-size: 40px;
+}
+
+.story1 {
+  background-image: url(../images/img-story-1.png);
+}
+
+.story2 {
+  background-image: url(../images/img-story-2.png);
+}
+
+.story3 {
+  background-image: url(../images/img-story-3.png);
+}
+
+.narrative {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
