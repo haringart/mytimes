@@ -119,3 +119,22 @@ div .banners {
   justify-content: space-between;
   height: 300px;
 }
+
+.newsbites {
+  text-align: center;
+}
+
+.bites {
+  color: dimgray;
+  font-family: Verdana, sans-serif;
+  font-size: 12px;
+}
+
+.newsbites .bites {
+  display: block;
+  background-color: WhiteSmoke;
+  padding: 11px 20px;
+  border-bottom: 1px solid black;
+  }
+
+  /*-- FOOTER CONTAINER --*/
